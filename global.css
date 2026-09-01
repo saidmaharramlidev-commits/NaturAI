@@ -3,3 +3,18 @@
 @import "tailwindcss/utilities.css";
 
 @import "nativewind/theme";
+
+@theme {
+    --color-black: #000000;
+    --color-surface: #0d0d12;
+    --color-surface2: #161620;
+
+    --color-blue: #2f6fed;
+    --color-blue-dark: #1b4fc4;
+
+    --color-red: #e5384d;
+    --color-red-dark: #b82a3c;
+
+    --color-text-primary: #e7edfb;
+    --color-text-dim: #5b739e;
+}

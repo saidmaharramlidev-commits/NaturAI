@@ -982,6 +982,11 @@
     sf-symbols-typescript "^2.1.0"
     vaul "^1.1.2"
 
+"@expo/vector-icons@^15.0.2":
+  version "15.1.1"
+  resolved "https://registry.yarnpkg.com/@expo/vector-icons/-/vector-icons-15.1.1.tgz#4b1d2c60493c0b0536972f0a5babd5f5c85b48f4"
+  integrity sha512-Iu2VkcoI5vygbtYngm7jb4ifxElNVXQYdDrYkT7UCEIiKLeWnQY0wf2ZhHZ+Wro6Sc5TaumpKUOqDRpLi5rkvw==
+
 "@expo/ws-tunnel@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@expo/ws-tunnel/-/ws-tunnel-2.0.0.tgz#32d5fae46c7deb34cdf6b319a53b8a19b7915c93"
@@ -2330,6 +2335,11 @@ expo-asset@~57.0.15:
   dependencies:
     "@expo/image-utils" "^0.11.5"
     expo-constants "~57.0.15"
+
+expo-clipboard@~57.0.1:
+  version "57.0.1"
+  resolved "https://registry.yarnpkg.com/expo-clipboard/-/expo-clipboard-57.0.1.tgz#d0550de548d313793d2240250081e9e453dbaf71"
+  integrity sha512-HWICri4+1ao7S6QEfcorxVumXDiDnx1guGGewjZgGJWLGxFYs0RgH8ujBs+lkTzBkMmlwADaWSlaesR+nDJt5Q==
 
 expo-constants@~57.0.15, expo-constants@~57.0.16:
   version "57.0.16"

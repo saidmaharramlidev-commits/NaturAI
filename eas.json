@@ -6,13 +6,25 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "EAS_BUILD_NPM_FLAGS": "--legacy-peer-deps",
+        "APP_VARIANT": "development"
+      }
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "EAS_BUILD_NPM_FLAGS": "--legacy-peer-deps",
+        "APP_VARIANT": "production"
+      }
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "EAS_BUILD_NPM_FLAGS": "--legacy-peer-deps",
+        "APP_VARIANT": "production"
+      }
     }
   },
   "submit": {
